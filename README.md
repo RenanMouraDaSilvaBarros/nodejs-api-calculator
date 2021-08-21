@@ -4,7 +4,7 @@
 ### Exemple:
 
 * **method** : post
-* localhost/3000/calculate
+* **endpoint** : localhost/3000/calculate
 
 #### **Body:**
 ```javascript
@@ -13,15 +13,16 @@
 	"numberTwo":2,
 	"operation": "/"
 }
-...
-#### **Response**:
-```javascript
+```
 
+#### **Response**:
+
+```javascript
 {
   "result": 5
 }
-...
+```
 ### Parameters
-* *numberOne* only type number
-* *numberTwo* only type number
-* *operation* operators only (+ , -, *, /)
+* **numberOne** only type number
+* **numberTwo** only type number
+* **operation** operators only (+ , -, *, /)
