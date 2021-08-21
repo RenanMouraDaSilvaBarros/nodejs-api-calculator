@@ -15,6 +15,6 @@
   "result": 5
 }
 ### Parameters
--*numberOne* only type number
--*numberTwo* only type number
--*numberOne* operators only (+ , -, *, /)
+* *numberOne* only type number
+* *numberTwo* only type number
+* *numberOne* operators only (+ , -, *, /)
