@@ -19,4 +19,4 @@
 ### Parameters
 * *numberOne* only type number
 * *numberTwo* only type number
-* *numberOne* operators only (+ , -, *, /)
+* *operation* operators only (+ , -, *, /)
