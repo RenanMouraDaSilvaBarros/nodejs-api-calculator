@@ -1,8 +1,10 @@
 # API Calculator
 
 ## Request
-
 ### Exemple:
+
+* **method** : post
+* localhost/3000/calculate
 
 #### **Body:**
 {
