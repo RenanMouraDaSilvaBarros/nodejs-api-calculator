@@ -1,28 +1,33 @@
-# API Calculator
+# Calculadora API com Express
 
-## Request
-### Exemple:
+Este é um serviço de calculadora básica desenvolvido em Node.js usando o framework Express. A API permite realizar operações matemáticas simples, como adição, subtração, multiplicação e divisão.
 
-* **method** : post
-* **endpoint** : localhost/3000/calculate
+## Funcionalidades
 
-#### **Body:**
-```javascript
-{
-	"numberOne":10,
-	"numberTwo":2,
-	"operation": "/"
-}
-```
+- **Endpoint `/calculate`:** Este endpoint recebe requisições POST com dados para realizar cálculos.
+  - **Payload Esperado:**
+    ```json
+    {
+        "numberOne": 10,
+        "numberTwo": 5,
+        "operation": "add" // ou sub, mul, div
+    }
+    ```
+  - **Validações de Entrada:**
+    - Verifica se a operação é válida.
+    - Valida se os números fornecidos são válidos.
+  - **Resposta:**
+    ```json
+    {
+        "result": 15 // Resultado da operação realizada
+    }
+    ```
 
-#### **Response**:
+## Instruções de Uso
 
-```javascript
-{
-  "result": 5
-}
-```
-### Parameters
-* **numberOne** only type number
-* **numberTwo** only type number
-* **operation** operators only (+ , -, *, /)
+1. **Instalação:**
+
+   Certifique-se de ter o Node.js instalado em sua máquina.
+
+   ```bash
+   npm install
