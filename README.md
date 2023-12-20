@@ -10,7 +10,7 @@ Este é um serviço de calculadora básica desenvolvido em Node.js usando o fram
     {
         "numberOne": 10,
         "numberTwo": 5,
-        "operation": "add" // ou sub, mul, div
+        "operation": "+" // ou -, *, /
     }
     ```
   - **Validações de Entrada:**
